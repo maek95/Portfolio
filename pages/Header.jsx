@@ -40,7 +40,8 @@ export default function Header({ children }) {
           src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg"
           alt="hamburger menu"
         /> */}
-         <svg
+         <div className="flex items-center">
+          <svg
           height="32px"
           id="Layer_1"
           style={{ enableBackground: 'new 0 0 32 32' }}
@@ -50,10 +51,11 @@ export default function Header({ children }) {
           xmlSpace="preserve"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          className="dark:fill-white flex sm:hidden"
+          className="dark:fill-white flex sm:hidden" 
         >
           <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
-        </svg>
+          </svg>
+        </div>
         <ul className=" hidden sm:flex flex-row sm:gap-4 items-center justify-center font-semibold">
           <li>Home</li>
           <li>About</li>
